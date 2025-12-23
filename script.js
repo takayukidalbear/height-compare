@@ -58,8 +58,8 @@ function createCharacter(name, imageUrl, x) {
     isDragging = false;
   });
 
-  wrapper.appendChild(img);
   wrapper.appendChild(label);
+  wrapper.appendChild(img);
   dropZone.appendChild(wrapper);
 }
 
