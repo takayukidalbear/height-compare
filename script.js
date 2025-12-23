@@ -1,5 +1,5 @@
 const characters = [
-  { name: "加藤 稔", img: "images/watermark.png", x: 100 },
+  { name: "ネッド 173cm", img: "images/ned.png", x: 100 },
   { name: "石原 秀人180cm", img: "images/watermark.png", x: 300 }
 ];
 
