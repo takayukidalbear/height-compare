@@ -1,13 +1,10 @@
-// ① キャラ名簿（身長はもう使わない）
 const characters = [
-  { name: "加藤 稔", img: ".png", x: 100 },
+  { name: "加藤 稔", img: "watermark.png", x: 100 },
   { name: "石原 秀人180cm", img: ".png", x: 300 }
 ];
 
-// ② HTML取得
 const dropZone = document.getElementById("dropZone");
 
-// ③ キャラを1人作る
 function createCharacter(name, imageUrl, x) {
   const wrapper = document.createElement("div");
   wrapper.className = "character";
@@ -66,7 +63,6 @@ function createCharacter(name, imageUrl, x) {
   dropZone.appendChild(wrapper);
 }
 
-// ④ 最初から並べる
 characters.forEach(c => {
   createCharacter(c.name, c.img, c.x);
 });
