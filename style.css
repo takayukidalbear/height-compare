@@ -15,7 +15,7 @@ body {
 background-image: url("images/watermark.png");
   background-repeat: no-repeat;
   background-position: left bottom;
-  background-size: auto 50%;
+  background-size: auto 10%;
 
   border: 1px solid #ccc;
   overflow: hidden;
