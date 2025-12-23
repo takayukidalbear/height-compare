@@ -1,6 +1,6 @@
 const characters = [
-  { name: "加藤 稔", img: "watermark.png", x: 100 },
-  { name: "石原 秀人180cm", img: "watermark.png", x: 300 }
+  { name: "加藤 稔", img: "images/watermark.png", x: 100 },
+  { name: "石原 秀人180cm", img: "images/watermark.png", x: 300 }
 ];
 
 const dropZone = document.getElementById("dropZone");
