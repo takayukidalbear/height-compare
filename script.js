@@ -1,3 +1,12 @@
+const characters = [
+  {
+    name: "加藤 稔",
+    img: "images/kato.png",
+    height: 178,
+    x: 100
+  }
+];
+
 const dropZone = document.getElementById("dropZone");
 const BASE_HEIGHT = 160;
 
