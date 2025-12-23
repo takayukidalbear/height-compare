@@ -1,7 +1,7 @@
 const characters = [
   {
     name: "加藤 稔",
-    img: "images/kato.png",
+    img: "watermark.png",
     height: 178,
     x: 100
   }
