@@ -12,7 +12,7 @@ body {
   border: 2px dashed #999;
   background: white;
   overflow: hidden;
-background-image: url("images/watermark.png");
+background-image: url("background.png");
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: auto 100%;
