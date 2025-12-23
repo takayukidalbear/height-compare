@@ -8,7 +8,7 @@ body {
 #dropZone {
   position: relative;
   width: 100%;
-  height: 5000px;
+  height: 1000px;
   border: 2px dashed #999;
   background: white;
   overflow: hidden;
