@@ -23,14 +23,6 @@ function createCharacter(imageUrl) {
   img.style.height = "300px";
   img.draggable = false;
 
-  const characters = [
-  {
-    name: "加藤 稔",
-    img: "images/kato.png",
-    height: 178,
-    x: 100
-  },
-
   // 身長入力
   const input = document.createElement("input");
   input.type = "number";
