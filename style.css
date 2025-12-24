@@ -90,9 +90,3 @@ body {
   min-width: 1200px;
   overflow-x: auto;
 }
-
-#scaleWrapper {
-  transform: scale(0.8);
-  transform-origin: top left;
-  width: fit-content;
-}
