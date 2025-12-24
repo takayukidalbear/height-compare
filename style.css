@@ -7,22 +7,21 @@ body {
 
 #dropZone {
   position: relative;
-  width: auto;
-  height: 1029px;
-  border: 2px dashed #999;
-  background: white;
-  overflow: hidden;
-background-image: url("images/background.png");
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border: 1px solid #ccc;
+  }
+
+#background {
+  background-image: url("images/background.png");
   background-repeat: no-repeat;
   background-position: left bottom;
-  background-size: auto;
-
-  border: 1px solid #ccc;
-  overflow: hidden;
-  
-  overflow-x: auto;  
-  overflow-y: hidden;
+  display: block;
+  width: 5000px;  
+  height: 1029px;
 }
+
 
 #ground {
   position: absolute;
