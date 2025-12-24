@@ -8,6 +8,7 @@ body {
 #dropZone {
   position: relative;
   width: 5000px;
+  height: 1029px;
   overflow-x: auto;
   overflow-y: hidden;
   border: 1px solid #ccc;
@@ -22,7 +23,7 @@ body {
 
   
 #background {
-  background-image: url("images/background.png");
+  background: url("images/background.png");
   background-repeat: no-repeat;
   background-position: left bottom;
   display: block;
