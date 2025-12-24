@@ -51,6 +51,7 @@ function createCharacter(name, imageUrl, x) {
 
   // スマホ対応
   wrapper.addEventListener("touchstart", e => {
+    e.preventDefault();
     isDragging = true;
     startX = e.touches[0].clientX;
     currentLeft = wrapper.offsetLeft;
@@ -59,6 +60,7 @@ function createCharacter(name, imageUrl, x) {
 
   document.addEventListener("touchmove", e => {
     if (!isDragging) return;
+    e.preventDefault();
     wrapper.style.left = currentLeft + (e.touches[0].clientX - startX) + "px";
   });
 
