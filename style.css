@@ -9,7 +9,7 @@ body {
   position: relative;
   width: 5000px;
   overflow-x: auto;
-  overflow-y: 1029px;
+  overflow-y: hidden;
   border: 1px solid #ccc;
   }
 
