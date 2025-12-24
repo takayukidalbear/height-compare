@@ -41,7 +41,7 @@ background-image: url("images/background.png");
 
 .character img {
   height: auto;      
-  max-height: 600px; 
+  max-height: auto; 
   width: auto;
   display: block;
 }
