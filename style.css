@@ -14,6 +14,12 @@ body {
   border: 1px solid #ccc;
   }
 
+#dropZone {
+  transform: scale(0.8);
+  transform-origin: top left;
+}
+
+
 #copyright {
   margin-top: 8px;
   font-size: 12px;
@@ -77,16 +83,4 @@ body {
   line-height: 1.2;
   text-align: center;
   white-space: nowrap;
-}
-
-#scrollWrapper {
-  width: 100vw;         
-  min-width: 1200px;    
-  overflow-x: auto;
-}
-
-#scaleWrapper {
-  transform: scale(0.8);
-  transform-origin: top left;
-  width: fit-content;
 }
