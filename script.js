@@ -51,19 +51,24 @@ function createCharacter(name, imageUrl, x) {
 
   // スマホ対応
   wrapper.addEventListener("touchstart", e => {
-    e.preventDefault();
-    isDragging = true;
-    startX = e.touches[0].clientX;
-    currentLeft = wrapper.offsetLeft;
-    wrapper.style.zIndex = Date.now();
-  });
+  if (e.touches.length >= 2) {
+    return;
+  }
+  e.preventDefault();
+  isDragging = true;
+  startX = e.touches[0].clientX;
+  currentLeft = wrapper.offsetLeft;
+  wrapper.style.zIndex = Date.now();
+}, { passive: false });
 
-  document.addEventListener("touchmove", e => {
-    if (!isDragging) return;
-    e.preventDefault();
-    wrapper.style.left = currentLeft + (e.touches[0].clientX - startX) + "px";
-  });
-
+ document.addEventListener("touchmove", e => {
+  if (!isDragging) return;
+  if (e.touches.length >= 2) return;  
+  e.preventDefault();
+  wrapper.style.left =
+    currentLeft + (e.touches[0].clientX - startX) + "px";
+}, { passive: false });
+  
   document.addEventListener("touchend", () => {
     isDragging = false;
   });
