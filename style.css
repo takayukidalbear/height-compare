@@ -13,6 +13,11 @@ body {
   border: 1px solid #ccc;
   }
 
+#dropZone {
+  transform: scale(0.7);         
+  transform-origin: top left;    
+ }
+  
 #background {
   background-image: url("images/background.png");
   background-repeat: no-repeat;
