@@ -10,7 +10,7 @@ body {
   width: 5000px;
   height: 1029px;
   overflow-x: auto;
-  overflow-y: 1029px;
+  overflow-y: auto;
   border: 1px solid #ccc;
   }
 
