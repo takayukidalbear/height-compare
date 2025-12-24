@@ -11,6 +11,8 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
   border: 1px solid #ccc;
+  transform: scale(0.8);
+  transform-origin: top left;
   }
 
 #background {
