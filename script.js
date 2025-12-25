@@ -5,9 +5,12 @@ const characters = [
   { name: "看守長 185cm", img: "images/chiefguard.png", x: 3000 }, 
   { name: "眼帯 181cm", img: "images/eyepatch.png", x: 1800 }, 
   { name: "クロス 177cm", img: "images/cross.png", x: 900 },
+  { name: "処刑人 176cm", img: "images/theswitchman.png", x: 3350 },
+  { name: "シューター 175cm", img: "images/shooter.png", x: 3200 },
   { name: "看守 173cm", img: "images/kansyu_v2.png", x: 200 },
   { name: "ネッド 173cm", img: "images/ned_v2.png", x: 0 },
-  { name: "シェフ 170cm", img: "images/chef.png", x: 1400 },
+  { name: "シェフ 171cm", img: "images/chef.png", x: 1400 },
+  { name: "弁護士 170cm", img: "images/lawyer.png", x: 3450 },
   { name: "トモ 169cm", img: "images/tomo.png", x: 1200 },
   { name: "新人ちゃん 168cm", img: "images/sinjin.png", x: 400 },
   { name: "ローランド 168cm", img: "images/roland.png", x: 730 },
@@ -18,6 +21,7 @@ const characters = [
   { name: "ドクター 161cm", img: "images/doctor_v2.png", x: 2650 },
   { name: "店長 153cm", img: "images/manager.png", x: 2500 },
   { name: "ミリィ 149cm", img: "images/milly.png", x: 2050 },
+  { name: "メイプル 145cm", img: "images/maple.png", x: 2900 },
   { name: "アルク 110cm", img: "images/alc.png", x: 2200 },
   { name: "ワンワン 37cm", img: "images/wanwan.png", x: 1600 }
 
