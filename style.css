@@ -57,6 +57,7 @@ body {
   max-height: auto; 
   width: auto;
   display: block;
+  text-align: center;
 }
 
 .character:active {
@@ -81,9 +82,4 @@ body {
   color: #000;
   line-height: 1.2;
   white-space: nowrap;
-}
-
-.name {
-  min-width: 300px;  
-  text-align: center;
 }
