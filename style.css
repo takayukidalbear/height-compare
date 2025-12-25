@@ -85,6 +85,6 @@ body {
 }
 
 .name {
-  position: absolute;
-  right: 50%;
-  }
+  min-width: 120px;  
+  text-align: center;
+}
