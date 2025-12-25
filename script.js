@@ -15,7 +15,7 @@ const characters = [
   { name: "新人ちゃん 168cm", img: "images/sinjin.png", x: 400 },
   { name: "ローランド 168cm", img: "images/roland.png", x: 730 },
   { name: "ヒロヤ 167cm", img: "images/hiroya.png", x: 2220 },
-  { name: "カズヤ 167cm", img: "images/kazuya.png", x: 2350 },
+  { name: "カズヤ 167cm", img: "images/kazuya_v2.png", x: 2350 },
   { name: "チャン 167cm", img: "images/chan.png", x: 1100 },
   { name: "アンドル 163cm", img: "images/andol.png", x: 600 },
   { name: "ドクター 161cm", img: "images/doctor_v2.png", x: 2650 },
