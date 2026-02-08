@@ -20,6 +20,7 @@ const characters = [
   { name: "チャン 167cm", img: "images/chan.png", x: 1100 },
   { name: "囚人B 165cm", img: "images/inmateB.png", x: 4150 },
   { name: "マリア 165cm", img: "images/maria_v2.png", x: 4385 },
+  { name: "ダミ 165cm", img: "images/dami.png", x: 4650 },
   { name: "アンドル 163cm", img: "images/andol.png", x: 600 },
   { name: "ドクター 161cm", img: "images/doctor_v2.png", x: 2650 },
   { name: "囚人A 159cm", img: "images/inmateA.png", x: 3970 },
@@ -29,7 +30,8 @@ const characters = [
   { name: "メイプル 145cm", img: "images/maple.png", x: 3250 },
   { name: "アルク 110cm", img: "images/alc.png", x: 2200 },
   { name: "わんわん 37cm", img: "images/wanwan.png", x: 1600 },
-  { name: "猫 23cm", img: "images/cat.png", x: 1900 }
+  { name: "猫 23cm", img: "images/cat.png", x: 1900 },
+  { name: "スカル 20cm", img: "images/skull.png", x: 20 }
 
 
 ];
