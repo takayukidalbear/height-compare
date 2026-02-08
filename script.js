@@ -31,7 +31,7 @@ const characters = [
   { name: "アルク 110cm", img: "images/alc.png", x: 2200 },
   { name: "わんわん 37cm", img: "images/wanwan.png", x: 1600 },
   { name: "猫 23cm", img: "images/cat.png", x: 1900 },
-  { name: "スカル 20cm", img: "images/skull.png", x: 20 }
+  { name: "スカル 20cm", img: "images/skull.png", x: 100 }
 
 
 ];
