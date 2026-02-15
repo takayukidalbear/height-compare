@@ -6,7 +6,7 @@ const characters = [
   { name: "ヘインバーグ 188cm", img: "images/heinberg.png", x: 3000 }, 
   { name: "看守長 185cm", img: "images/chiefguard.png", x: 3350 }, 
   { name: "眼帯 181cm", img: "images/eyepatch.png", x: 1800 }, 
-  { name: "フォックス 179cm", img: "images/fox.png", x: 4950 },
+  { name: "フォックス 179cm", img: "images/fox.png", x: 5000 },
   { name: "クロス 177cm", img: "images/cross.png", x: 900 },
   { name: "処刑人 176cm", img: "images/theswitchman.png", x: 3600 },
   { name: "イディオ 175cm", img: "images/idio.png", x: 4500 },
