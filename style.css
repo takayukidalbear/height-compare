@@ -28,12 +28,12 @@ body {
   
 #background {
   background-image: url("images/background.png");
-  background-repeat: repeat;
+  background-repeat: repeat-x;
+  background-size: auto;
   background-position: left bottom;
   display: block;
   width: 6000px;  
   height: 1029px;
-  background-size: auto;
 }
 
 
