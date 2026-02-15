@@ -1,6 +1,6 @@
 const characters = [
   { name: "ゼン 203cm", img: "images/zen.png", x: 1000 },
-  { name: "バレル 194cm", img: "images/barrel.png", x: 5180 }, 
+  { name: "バレル 194cm", img: "images/barrel.png", x: 5170 }, 
   { name: "バレット 193cm", img: "images/bullet.png", x: 3050 },
   { name: "トリガ 190cm", img: "images/trigga.png", x: 4900 }, 
   { name: "ヘインバーグ 188cm", img: "images/heinberg.png", x: 3000 }, 
